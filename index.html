@@ -46,6 +46,16 @@
         <p>&copy; 2024 Wanderlust Travel Agency. Questions? Call <a href="tel:+15551234567" class="dni-phone-link"><span class="dni-phone-text">(555) 123-4567</span></a></p>
     </footer>
 
-    <script src="dni.js"></script>
+    <!-- ServiceTitan DNI -->
+    <script>
+        dni = (function(q,w,e,r,t,y,u){q['ServiceTitanDniObject']=t;q[t]=q[t]||function(){
+            (q[t].q=q[t].q||[]).push(arguments)};q[t].l=1*new Date();y=w.createElement(e);
+            u=w.getElementsByTagName(e)[0];y.async=true;y.src=r;u.parentNode.insertBefore(y,u);
+            return q[t];
+        })(window,document,'script','https://static.servicetitan.com/marketing-ads/dni.js','dni');
+        dni('init', 'TEST-KEY', { api: 'https://go.servicetitan.com', webformsTrackingEnabled: false });
+        document.addEventListener('DOMContentLoaded', function() { dni('load'); }, false);
+    </script>
+    <!-- ServiceTitan DNI -->
 </body>
 </html>
